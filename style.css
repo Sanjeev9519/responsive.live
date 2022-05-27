@@ -1,0 +1,346 @@
+@font-face{
+    font-family: CodaCaption-ExtraBold;
+    src: url(../fonts/CodaCaption-ExtraBold.ttf);
+}
+*{
+    font-family: 'Roboto', sans-serif;
+
+}
+h1,h2,h3,h4,h5{
+    font-family: CodaCaption-ExtraBold;
+}
+.uni-padding{
+    padding: 0 7%;
+}
+body{
+    margin: 0;
+}
+#container{
+    margin: 0 auto;
+    max-width: 1200px;
+   border: .5px rgb(221, 221, 221) solid;
+
+}
+/* ========top bar========== */
+#topbar{
+    background-color: 
+    #556574;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    overflow: auto;
+}
+#social-icon{
+    float: right;
+  
+}
+#tollfree{
+    float: left;
+    color: white;
+    margin: 0;
+}
+.fa-brands{
+    color:   #556574;
+    background-color: white;
+    padding: 5px;
+    border-radius: 50%;
+}
+/* =========================================image logo===================================== */
+#logobar img {
+    width:200px;
+    margin-top:-45px;
+    margin-bottom:-70px
+
+    
+/* ==============================menu bar=================================== */
+}
+#navbar{
+    background-color:  #fb6053;
+}
+#navbar ul li
+{
+    display: inline-block;
+    padding: 20px 0;
+    padding-right:35px ;
+   
+}#navbar ul li a{
+    color: white;
+    text-decoration: none;
+}
+/* =================================Footer Starts Here=================================== */
+#imp-link{
+   background-color: #556574; 
+   color: white;
+   overflow: auto;
+}
+.div33{
+    width: 33.33%;
+    float: left;
+    padding: 25px 50px;
+box-sizing: border-box;
+}
+.div33 h3{
+    text-decoration: underline;
+    text-underline-offset: 10px;
+    text-decoration-thickness: 2px ;
+}
+#footer-menu{
+    list-style: none;
+    padding: 0;
+    
+}
+#footer-menu li {
+    padding-bottom: 10px;
+}
+#footer-menu li a{
+    color: white;
+    text-decoration: none;
+}
+#footer-menu-container{
+    padding-left: 50px;
+}
+
+
+#copyright{
+    background-color: #0f1921;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+/* ========header and footer ends here============== */
+/* ========================hero section start s========== */
+#poster{
+    background-image: url(img/bg1.png) ;
+    height: 500px;
+    background-position: center;
+    background-size:cover ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* color: white; */
+    flex-direction: column;
+    /* box-sizing: border-box; */
+    margin-top: -16px;
+
+}
+#poster h1{
+    font-size: 50px;
+    text-align: center;color: white;
+
+}
+#poster p{
+    font-size: 18px;
+    text-align: center;color: white;
+}
+/* why section starts============= */
+#whysection{ 
+    overflow: auto;
+   margin-bottom: 50px;
+   text-align: center;
+}
+.section33{
+    width:33.33% ;
+    float: right;
+    padding: 19px;
+   border: 1px rgb(221, 221, 221) solid;
+   box-sizing: border-box;
+}
+
+#whysection img{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    position: relative;
+   
+}
+.red-heading{
+    text-align: center;
+    color: #fb6053;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.red-headings{
+    color: red;
+    font-size: 25px;
+}
+/* =========Contact section here================ */
+#contact-container{
+    background-color: #fb6053;
+    color: white;
+    overflow: auto;
+    padding-top:20px ;
+    padding-bottom: 30px;
+
+}
+.section70{
+    width: 70%;
+    float: left;
+}
+.section30{
+    float: left;
+    width: 30%;
+    text-align: center;
+    padding-top: 70px ;
+}
+#contact-btn{
+    background-color: white;
+    color: #fb6053;
+    padding: 10px 50px;
+    border-radius: 10px;
+    text-decoration: none ;
+font-size: 18px;
+font-weight: bold;
+
+}
+/* ======================Blog starts here=========== */
+.section33{
+    max-width: 100%;
+}
+.section33 a{
+    color: #fb6053;
+    font-weight: bold;
+    text-decoration: none;
+    
+}
+/* ==================Subscribe Section============= */
+#subscribe-section{
+    background-color: #fb6053;
+    color: azure;
+  overflow: auto;
+  padding: 50px;
+    /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: center; */
+    /* padding-top:40px ; */
+    /* padding-bottom: 40px; */
+}
+
+.section50{
+width: 50%;
+float: left;
+
+}
+.section50 h2{
+    font-size: 30px;
+   
+}
+.section50 input[type='text']{
+padding: 10px 15px;
+font-size: 15px;
+color: #fb6053;
+margin-left:20px ;
+border: 0px;
+margin-top: 32px;
+
+}
+    .section50 input[type='submit']{
+        padding: 8px 35px;
+        font-size: 15px;
+        color: #fb6053;
+        border: 0px;
+        cursor: pointer;
+        margin-left: 20px;
+
+    }
+#navbar ul #mobile-cross, #mobile-bar{
+    display: none;
+}
+    /* =============Responsive for ipad======= */
+    @media only screen and (max-width: 834px){
+        #navbar ul li {
+            padding-right: 17px;
+}.section30 {
+    padding-top: 107px;}
+
+.section50 input[type='submit']{
+    
+    font-size: 12px;
+}
+.section50 input[type='text']{
+    font-size: 12px;}}
+
+
+
+    /* ==============Responsive For Mobile=========== */
+    @media only screen and (max-width:500px){
+        #logobar img {
+            margin-top: -43px;
+            margin-bottom: -48px;
+        }
+        
+        #logobar{
+            text-align: center;
+        }
+        #poster h1 {
+            font-size: 31px;}
+            .section33 {
+                width: 100%;
+                text-align: center;
+    }
+    .section30{
+        width: 100%;
+    }
+    .section70, .section50, .div33 {
+        width: 100%;
+        text-align: center;
+    }
+  
+    .section50 input[type='text']{
+        margin-top: -5px;
+    }
+.section50 input[type="submit"]{
+    margin-top: 10px;
+}.section33{
+    margin-bottom: 30px;
+}#footer-menu-container{
+    padding: 0;
+
+}
+}
+
+
+/* Mobile Menu  */
+@media only screen and (max-width:500px){
+    #navbar {
+        background-color: #fb6053;
+        position: absolute;
+        top: 0px;
+        height: 100vh;
+        z-index: 1;
+        width: 280px;
+        padding: 0px;}
+#navbar ul li {
+    display: block;
+    padding: 15px 0;
+    border-bottom: 1px solid ghostwhite;
+    padding-right: 35px;
+}
+#mobile-cross{
+text-align: right;
+
+}
+.fa-bars{
+   font-size: 15px; 
+}
+#navbar{
+    left:-280px;
+    transition: all .5s ease;
+}
+#mobile-bar{
+    text-align: left;
+    background-color: #fb6053;
+    color: white;
+    font-size: 15px;
+    padding: 20px;
+    padding-bottom: 30px;
+   
+
+}
+#navbar ul #mobile-cross, #mobile-bar{
+    display: block;
+}
+}
+
+
+
+
